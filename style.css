@@ -21,7 +21,7 @@ main {
 }
 
 .main-container {
-  max-width: 600px;
+  max-width: 37.5rem;
   background-color: hsl(0, 0%, 100%);
   padding: 30px;
   border-radius: 10px;
