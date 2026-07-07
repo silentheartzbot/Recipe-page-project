@@ -1,0 +1,140 @@
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+* {
+  margin: 0px;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  max-width: 600px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.food-image {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.food-heading {
+  font-size: 2.3rem;
+  font-family: "Young Serif", serif;
+  font-weight: 700;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 15px;
+}
+
+.food-info {
+  font-size: 0.9rem;
+  font-family: "Outfit", Arial;
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 15px;
+}
+
+.preparation {
+  font-family: "Outfit", Arial;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: hsl(330, 100%, 98%);
+}
+
+.prep-heading {
+  font-size: 16px;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+}
+
+.preparation li {
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 8px;
+}
+
+.preparation li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.heading {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.guidance {
+  font-family: "Outfit", Arial;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.guidance ul,
+.guidance ol {
+  margin-bottom: 20px;
+}
+
+.guidance li {
+  font-size: 0.91rem;
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 8px;
+}
+
+.bold-font {
+  font-weight: 600;
+}
+
+.guidance li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.nutrition {
+  font-family: "Outfit", Arial;
+}
+
+.nutrition p {
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition-table tr {
+  border-bottom: 1px solid hsl(30, 54%, 90%);
+}
+
+.nutrition-table th {
+  text-align: left;
+  font-weight: 100;
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition td {
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+}
+
+.nutrition-table th,
+.nutrition-table td {
+  padding-left: 15px;
+  padding-bottom: 5px;
+  padding-top: 15px;
+}
