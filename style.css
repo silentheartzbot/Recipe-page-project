@@ -10,7 +10,7 @@ body {
 }
 
 * {
-  margin: 0px;
+  margin: 0rem;
 }
 
 main {
@@ -30,7 +30,7 @@ main {
 .food-image {
   max-width: 100%;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-block-end: 20px;
 }
 
 .food-heading {
@@ -38,18 +38,18 @@ main {
   font-family: "Young Serif", serif;
   font-weight: 700;
   color: hsl(24, 5%, 18%);
-  margin-bottom: 15px;
+  margin-block-end: 15px;
 }
 
 .food-info {
   font-size: 0.9rem;
-  font-family: "Outfit", Arial;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
   color: hsl(30, 10%, 34%);
-  margin-bottom: 15px;
+  margin-block-end: 15px;
 }
 
 .preparation {
-  font-family: "Outfit", Arial;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
   padding: 15px;
   border-radius: 8px;
   background-color: hsl(330, 100%, 98%);
@@ -58,12 +58,12 @@ main {
 .prep-heading {
   font-size: 16px;
   color: hsl(332, 51%, 32%);
-  margin-bottom: 10px;
+  margin-block-end: 10px;
 }
 
 .preparation li {
   color: hsl(30, 10%, 34%);
-  margin-bottom: 8px;
+  margin-block-end: 8px;
 }
 
 .preparation li::marker {
@@ -74,24 +74,24 @@ main {
   font-family: "Young Serif", serif;
   font-weight: 400;
   color: hsl(14, 45%, 36%);
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-block-start: 15px;
+  margin-block-end: 10px;
 }
 
 .guidance {
-  font-family: "Outfit", Arial;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
   border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
 .guidance ul,
 .guidance ol {
-  margin-bottom: 20px;
+  margin-block-end: 20px;
 }
 
 .guidance li {
   font-size: 0.91rem;
   color: hsl(30, 10%, 34%);
-  margin-bottom: 8px;
+  margin-block-end: 8px;
 }
 
 .bold-font {
@@ -104,7 +104,7 @@ main {
 }
 
 .nutrition {
-  font-family: "Outfit", Arial;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
 
 .nutrition p {
@@ -121,9 +121,13 @@ main {
   border-bottom: 1px solid hsl(30, 54%, 90%);
 }
 
+.nutrition-table tr:last-child {
+  border-bottom: none;
+}
+
 .nutrition-table th {
   text-align: left;
-  font-weight: 100;
+  font-weight: 400;
   color: hsl(30, 10%, 34%);
 }
 
@@ -134,7 +138,7 @@ main {
 
 .nutrition-table th,
 .nutrition-table td {
-  padding-left: 15px;
-  padding-bottom: 5px;
-  padding-top: 15px;
+  padding-inline-start: 15px;
+  padding-block-end: 5px;
+  padding-block-start: 15px;
 }
